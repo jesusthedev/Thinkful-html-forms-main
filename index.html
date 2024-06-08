@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Thinkful Assessment: HTML Forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <main>
+    <body>
+        <form>
+          <div class="group">
+            <div>
+                <label for="name">Name:</label>
+            </div>
+            <div>
+            <input id="name" type="text" name="name">
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+            </div>
+            <div>
+              <input type="email id="email" required />
+            </div>
+            <div>
+              <label for="Request Type">Request Type:</label>
+            </div>
+            <div>
+              <select name="request-type" id="Request Type" size=1>
+                <option value="simple">Simple</option>
+                <option value="manual-labor">Manul Labor</option>
+                <option value="repair">Repair</option>
+                <option value="metting-setup">Meeting Setup</option>
+              </select>
+            </div>
+          </select>
+          </div>
+
+            <div>
+                <label for="form-message">Your message:</label>
+            </div>
+            <div>
+                <textarea id="form-message" name="message"></textarea>
+            </div>
+
+            <div>
+              <button type="submit">Send</button>
+            </div>
+
+        </form>
+    </body>
+  </main>

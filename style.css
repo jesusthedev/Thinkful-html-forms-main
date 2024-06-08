@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  div {
+    margin: 5px 0 0 0 ;
+  }
+  
+  label {
+    padding-bottom: 5px;
+    margin-right: 5px;
+  }
+
+  textarea {
+    margin-bottom: 10px
+  }
+
+  input, textarea {
+    width: 95%;
+  }
+
+  textarea {
+    height: 200px
+  }
+
+  @media all and (min-width: 600px) {
+    input {
+        width: 90%;  
+    }
+
+    .group {
+        display: flex;
+        margin: 0 10px 10px 0;
+    }
+
+    textarea {
+        width: 98%;
+    }
+
+  }
+  
